@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src:url('Quicksand-Regular.ttf');
+}
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic");
+.button{
+	font-family: Quicksand-Regular;
+}
+.login{
+	color: blue;
+}
+h1{
+	font-family: Quicksand-Regular;
+	font-weight: bold;
+}
+h2{
+	font-family: Quicksand-Regular;
+}
+h5{
+	font-family: Quicksand-Regular;
+}
+p{
+	font-family: Quicksand-Regular;}
+
+ul{
+	font-family: Quicksand-Regular;
+}
+li{
+	list-style-type: none;
+}
+.navbar-menu{
+	background-color: #f5fcfd
+}
+.nav-link-home{
+	color: #0f7bff;
+}
+.sign-button{
+	border-radius: 25px;
+	height: 50px;
+	width: 165px;
+	display: inline-block;
+
+    line-height: 3.125rem
+}
+.Text-login
+{
+	color: #0f7bff;
+}
+.input_signup
+{
+	height: 40px;
+	width: 350px;
+}
+.logo
+{
+	margin-left: 100px;
+	font-weight: bold;
+}
+.logo_footer{
+	font-weight: bold;
+	margin-top: -12px;
+}
+.Forgot{
+	font-size: 13px;
+}
+.Create{
+	font-size: 13px;
+}
+.footer_block
+{
+	float: left;
+	padding: 15px;
+	text-decoration: none;
+}
+.footer_text{
+	width: 457px;
+height: 70px;
+color: #929292;
+font-family: Quicksand-Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+}
+footer{
+	background-color: #f5fcfd;
+}
+.middle_login{
+	height: 650px;
+}
+.middle_sign_up{
+	height: 750px;
+}
+.footer_li_main{
+	font-weight: bold;
+	color: #333333; 
+}
+.footer_li{
+	color: #929292;
+	cursor: pointer;
+	line-height: 27px;
+}
+.footer_block{
+	margin-top: 100px;
+}
+.li_bottom{
+	margin-left: 230px;
+}
+.footer_text_bottom{
+	margin-left: 350px;
+	color: #929292;
+}
+.footer_li_bottom{
+	color: #929292;
+	cursor: pointer;
+}
+.Pages_image{
+	
+}
+.list-group{
+	width: 300px;
+	flex-shrink: 0;
+	font-family: Quicksand-Regular;
+}
+.Pages_manu_text{
+	margin-left: 150px;
+}
+.Pages_text{
+	line-height: 27px;
+	color: #929292;
+	font-family: Quicksand-Regular;
+}
+.button_yes{
+	margin-left: 50px;
+}
+.button_no{
+	margin-left: 20px;
+}
+.Pages_manu{
+	height: 1000px;
+}
+.Pages_image_text{
+	margin-top: 100px;
+}
+.calendar_image{
+	height: 15px;
+	width: 15px;
+}
+.coment_image{
+	height: 15px;
+	width: 15px;
+}
+.like_image{
+	height: 15px;
+	width: 15px;
+	margin-bottom: 5px;
+}
+.calendar_text{
+	color: #929292;
+}
+.coment_text{
+	margin-left: 25px;
+	color: #929292;
+}
+.like_text{
+	margin-left: 40px;
+	color: #929292;
+}
+.card_block{
+	width: 200px;
+	height: 200px;
+}
+.card-text{
+	color: #929292;
+}
+.card-text-href{
+
+}
