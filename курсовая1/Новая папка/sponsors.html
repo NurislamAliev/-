@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Интернет-магазин спортивной мужской одежды "Shpak"</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</head>
+<body>
+<header>
+   <div class="header">
+    <div class="logoname">
+      <h1>Shpak</h1>
+      <a href="index.html"><div id="logo"></div></a>
+    </div>
+            <div>
+              <ul  class="mmenuu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#"> Каталог</a>
+                    
+                      <ul class="ssubmenuu">
+                        <li><a href="vetr.html">Ветровки</a></li>
+                        <li><a href="shtan.html">Штаны</a></li>
+                        <li><a href="kross.html">Кроссовки</a></li>
+                        <li><a href="foot.html">Футболки</a></li>
+                        <li><a href="access.html">Аксессуары</a></li>
+                      </ul>
+                    
+                    </li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="sponsors.html">Спонсоры</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="card">
+              <a href="korzina.html"><img src="images/card.png"></a>
+            </div>
+    </div>
+</header>
+  <div class="mainabout">
+    <h1>
+      <div class = "abautnash">НАШИ СПОНСОРЫ</div>
+    </h1>
+    <div class="sponsors">
+      <div>
+        <div>
+          <img src="images/adidas.png" style="width:100px; height:100px;">
+        </div>
+        <div>
+          <h1>Adidas</h1>
+          <p  class="sponsors-text">Немецкий промышленный концерн</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img src="images/Nike.png" style="width:100px; height:100px;">
+        </div>
+        <div>
+          <h1>Nike</h1>
+          <p class="sponsors-text">Американская компания</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img src="images/Puma.png" style="width:100px; height:100px;">
+        </div>
+        <div>
+          <h1>Puma</h1>
+          <p class="sponsors-text">Промышленная компания Германии</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="text_footer">
+<pre id="marqueeline">На сайте проводится акция с 1 по 31 декабря. Скидка 20% на все товары и услуги! </pre>
+
+<script type="text/javascript">
+ function animate(id) {
+  var node = document.getElementById(id).childNodes[0];
+  var text = node.data;
+  setInterval(function () {
+   text = text.substring(1) + text[0];
+   node.data = text;
+  }, 300); //интервал прокрутки, мс
+ }
+ window.addEventListener('load', function (e) { animate('marqueeline'); }, false);
+</script>
+  </div>
+<footer>
+<div class="footer footer2">
+  <p>©Нурислам Алиев</p>
+</div>
+</body>
+</html>

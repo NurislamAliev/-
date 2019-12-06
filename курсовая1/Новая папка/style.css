@@ -1,0 +1,264 @@
+*{}
+.back-color{
+    background-color: #0D58A6;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.CENTR{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logoname{
+    
+    text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+    color: white;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: absolute;
+    right: 10%;
+    top: 50px;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.sponsors-text{
+    width: 250px;
+    color: black;
+}
+body {
+    background-color: #FFFFFF;
+    margin:0px;
+    padding:0px;
+    font: 25px 'TimesNewRoman';
+}
+li{
+    border: 1px solid black;
+}
+ul {
+    list-style: none;
+    display: block;
+    margin:0px;
+    padding:0px;
+}
+ul:after {
+    display: block;
+    float: none;
+    content: ' ';
+    clear: both;
+}
+ul.mmenuu > li {
+    float: left;
+    position: relative;
+}
+ul.mmenuu > li > a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4188D2;
+}
+ul.mmenuu > li > a:hover {
+    background-color: #689CD2;
+}
+ul.ssubmenuu {
+    position: absolute;
+    width: 240px;
+    top: 50px;
+    left:0px;
+    display: none;
+    background-color: #4188D2;
+}
+.zil {
+    color:#4188D2
+    border-color:blue;
+}
+ul.ssubmenuu > li {
+    display: block;
+}
+ul.ssubmenuu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #4188D2;
+}
+ul.ssubmenuu > li > a:hover {
+    background-color: #689CD2;
+    text-decoration: underline;
+}
+ul.mmenuu > li:hover > ul.ssubmenuu {
+    display: block;
+}
+#logo{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url('images/logo.png');
+    background-size: cover;
+    float: left;
+}
+header{
+    padding-top: 20px;
+    background-color:#4188D2;
+    border-bottom: 15px solid black;
+}
+.mmenuu{
+    margin-left: 50px;
+}
+.main{
+    background-color: #0D58A6;
+    height: 600px;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom: -15px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+}
+.main p{
+    margin-top: -5px;
+
+}
+.main img{
+    width: 650px;
+    height: 350px;
+}
+.main-korzina{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-korzina form{
+    padding: 30px;
+    border: 2px solid black; 
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.main-korzina form div{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main-korzina img{
+    width: 350px;
+}
+form input {
+    font-size: 20px;
+    height: 30px;
+}
+button{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 45px;
+}
+.footer2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+    height: 35px;
+    background-color: black;
+}
+.footer p{
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 20px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.mainabout{
+    background-color: #0D58A6;
+    height: 500px;
+    text-align: center;
+    margin-top: -33px;
+    margin-bottom: -15px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+}
+.mainabout li{
+    border: none;
+
+}
+.mainabout span{
+    font-size: 45px;
+}
+.mainabout h1{
+    margin-bottom: 60px;
+}
+.map{
+    margin-top: -80px;
+    margin-left: -50px;
+    text-align: center;
+}
+.mapul li{
+    border: none;
+}
+.mapul{
+    color: #0D58A6;
+    text-shadow: 0px 0px 0 #000000, 0px 0px 0 #000000;
+    padding-top: 150px;
+    float: left;
+    margin-left:150px;
+}
+.CONT {
+    color: #0D58A6;
+    text-shadow: 0px 0px 0 #000000, 0px 0px 0 #000000;
+    margin-left: 150px;
+}
+table{
+    margin-left: 150px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+    background-color: #4188D2;
+}
+td{
+    border: 1px solid black;
+}
+td img{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+}
+.tablica{
+    padding-right: 150px;
+    text-align: center;
+}
+button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.text_footer{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+   
+}
+
+h1 {
+    font-family: TimesNewRoman;
+}
+.abautnash{
+    color: black;
+}
